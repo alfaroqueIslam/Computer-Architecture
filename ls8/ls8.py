@@ -1,16 +1,11 @@
 #!/usr/bin/env python3
 
-"""Main."""
-
 import sys
 from cpu import *
 
-cpu = CPU()
 def main(argv):
     """Main."""
 
-# cpu.load()
-# cpu.run() 
     if len(argv) != 2:
         print(f"usage: {argv[0]} filename", file=sys.stderr)
         return 1
